@@ -1,0 +1,30 @@
+{
+  "name": "chat-web",
+  "version": "1.0.0",
+  "description": "Aplicación de chat en tiempo real con Node.js, Express, Socket.IO y MySQL",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express",
+    "mysql",
+    "bootstrap"
+  ],
+  "author": "Pedro Castro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
